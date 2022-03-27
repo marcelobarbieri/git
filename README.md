@@ -75,6 +75,10 @@ You can reset HEAD by running the command.
 
 The caret **^** after HEAD implies the last commit referencing the **HEAD**.
 
+Update remote --force
+
+    git push origin <branch> -f
+
 ### 2. A group of commits on a branch
 
 Interactively rebase the branch
